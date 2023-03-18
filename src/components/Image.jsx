@@ -1,10 +1,8 @@
-import NextImage from 'next/image'
-
 const Image = ({ src, ...props }) => {
   return (
     <>
       <div className="custom-image w-full">
-        <NextImage
+        <img
           src={src}
           layout="fill"
           objectFit="contain"
