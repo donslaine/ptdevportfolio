@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import about from '../data/about.json'
 import SocialMedia from './SocialMedia'
 import SectionTitle from './SectionTitle'
@@ -15,7 +14,7 @@ const AboutMe = () => {
         <div className="grid-cols-12 items-center md:grid">
           <div className="col-span-4 sm:text-center md:text-left">
             <div className="relative inline-block leading-none drop-shadow-thumb sm:before:absolute sm:before:bottom-[-20px] sm:before:right-[-25px] sm:before:h-full sm:before:w-[calc(100%-20px)] sm:before:rounded-br-3xl sm:before:border-2 sm:before:border-white-light md:block lg:before:bottom-[-45px]">
-              <Image
+              <img
                 width={380}
                 height={470}
                 className="rounded-md"

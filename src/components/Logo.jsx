@@ -1,11 +1,10 @@
 import Link from 'next/link'
-import Image from 'next/image'
 
 const Logo = ({ variant, className }) => {
   return (
     <Link href="/">
       <a className={`inline-block leading-0 ${className ?? ''}`}>
-        <Image width={50} height={55} src={`/images/pT2.png`} />
+        <img width={50} height={55} src={`/images/pT2.png`} />
       </a>
     </Link>
   )
