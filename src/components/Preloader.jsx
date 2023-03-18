@@ -1,7 +1,17 @@
-const Preloader = ({preloaded}) => (
-    <div className={`fixed flex inset-0 after:absolute after:w-1/2 after:h-full after:bg-dark after:left-0 after:top-0 before:absolute before:w-1/2 before:h-full before:bg-dark before:right-0 before:top-0 ${preloaded ? "z-10 opacity-0 pointer-events-none after:animate-preloaded before:animate-preloaded":'z-50'}`}>
-        <div className={`w-[1px] h-[250px] m-auto relative z-50 overflow-hidden duration-300 after:absolute after:w-full after:h-full after:bg-[#777] after:left-0 after:top-0 after:animate-lineround before:absolute before:w-full before:h-0 before:bg-white before:left-0 before:top-1/2 before:-translate-y-1/2 before:animate-lineheight ${preloaded ? "!h-full opacity-0 pointer-events-none after:opacity-0":""}`}/>
-    </div>
+const Preloader = ({ preloaded }) => (
+  <div
+    className={`fixed inset-0 flex before:absolute before:right-0 before:top-0 before:h-full before:w-1/2 before:bg-dark after:absolute after:left-0 after:top-0 after:h-full after:w-1/2 after:bg-dark ${
+      preloaded
+        ? 'pointer-events-none z-10 opacity-0 before:animate-preloaded after:animate-preloaded'
+        : 'z-50'
+    }`}
+  >
+    <div
+      className={`relative z-50 m-auto h-[250px] w-[1px] overflow-hidden duration-300 before:absolute before:left-0 before:top-1/2 before:h-0 before:w-full before:-translate-y-1/2 before:animate-lineheight before:bg-white after:absolute after:left-0 after:top-0 after:h-full after:w-full after:animate-lineround after:bg-[#777] ${
+        preloaded ? 'pointer-events-none !h-full opacity-0 after:opacity-0' : ''
+      }`}
+    />
+  </div>
 )
 
-export default Preloader;
+export default Preloader

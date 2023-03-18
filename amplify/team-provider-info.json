@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ptdevportfolio-dev-120739-authRole",
+      "UnauthRoleArn": "arn:aws:iam::294064943701:role/amplify-ptdevportfolio-dev-120739-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::294064943701:role/amplify-ptdevportfolio-dev-120739-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ptdevportfolio-dev-120739-deployment",
+      "UnauthRoleName": "amplify-ptdevportfolio-dev-120739-unauthRole",
+      "StackName": "amplify-ptdevportfolio-dev-120739",
+      "StackId": "arn:aws:cloudformation:us-east-1:294064943701:stack/amplify-ptdevportfolio-dev-120739/02982890-c5a7-11ed-82cb-0ab9c2b6195f",
+      "AmplifyAppId": "dynu53ta1free"
+    }
+  }
+}

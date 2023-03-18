@@ -1,5 +1,5 @@
 export const checkExternalLink = (text) => {
-    const checkHttp = text.indexOf("http");
+  const checkHttp = text.indexOf('http')
 
-    return Boolean(checkHttp > -1);
+  return Boolean(checkHttp > -1)
 }
