@@ -1,0 +1,19 @@
+{
+  "name": "Paul Truitt",
+  "bio": "<p>I'm a Software Engineer and Full-Stack Developer driven to create positive change through technology. My background as a theatre actor and artistic collaborator combines with excellent coding chops to give me a unique skillset that slots into any cast of characters. I find great satisfaction in working on teams and solving problems and I am passionate about writing code. I embrace a growth mindset on a daily basis, relishing in new knowledge. I look forward to leveling up with your team.</p>",
+  "thumb": "pt-headshot.jpeg",
+  "socialMedia": [
+    {
+      "id": 1,
+      "media": "linkedin",
+      "icon": "FaLinkedinIn",
+      "link": "https://linkedin.com/in/paultruittdev"
+    },
+    {
+      "id": 2,
+      "media": "github",
+      "icon": "FaGithub",
+      "link": "https://github.com/donslaine"
+    }
+  ]
+}

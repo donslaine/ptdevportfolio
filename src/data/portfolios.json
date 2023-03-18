@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "title": "Lerpr",
+    "categories": ["marketing"],
+    "thumb": "Lerpr_600x600.png",
+    "featuredVideo": false,
+    "videoLink": null,
+    "source": "https://github.com/donslaine/lerpr",
+    "deploy": "https://scottank.github.io/lerpr/#/editor",
+    "icon": "FaGithub"
+  },
+  {
+    "id": 2,
+    "title": "Bark Board",
+    "categories": ["web", "marketing"],
+    "thumb": "BarkBoard_600x600.png",
+    "featuredVideo": false,
+    "videoLink": null,
+    "source": "https://github.com/donslaine/bark-board",
+    "deploy": "https://bark-board-client.onrender.com/",
+    "icon": "FaGithub"
+  },
+  {
+    "id": 3,
+    "title": "Audio Caddy",
+    "categories": ["graphics", "web", "marketing"],
+    "thumb": "AudioCaddy_600x600.png",
+    "featuredVideo": false,
+    "videoLink": null,
+    "source": "https://github.com/donslaine/audio-caddy-client",
+    "deploy": "https://donslaine.github.io/GA-project-1/",
+    "icon": "FaGithub"
+  },
+  {
+    "id": 4,
+    "title": "Blackjack",
+    "categories": ["marketing", "graphics"],
+    "thumb": "BlackJack_600x600.png",
+    "featuredVideo": false,
+    "videoLink": null,
+    "source": "https://github.com/donslaine/GA-project-1",
+    "deploy": "https://donslaine.github.io/GA-project-1/",
+    "icon": "FaGithub"
+  }
+]

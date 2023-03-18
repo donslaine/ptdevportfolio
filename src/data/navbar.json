@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Home",
+    "href": "hero"
+  },
+  {
+    "id": 2,
+    "name": "About",
+    "href": "about"
+  },
+  {
+    "id": 3,
+    "name": "Portfolio",
+    "href": "portfolio"
+  },
+  {
+    "id": 4,
+    "name": "Resume",
+    "href": "resume"
+  },
+  {
+    "id": 5,
+    "name": "Contact",
+    "href": "contact"
+  }
+]
