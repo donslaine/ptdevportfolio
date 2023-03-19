@@ -26,7 +26,7 @@ const ContactForm = ({ className }) => {
 
       emailjs.sendForm(serviceID, templateID, form.current, publicKey).then(
         (result) => {
-          cogoToast.success('Thanks for Contact with me☝', {
+          cogoToast.success('Thanks for Contacting me☝', {
             hideAfter: 5,
           })
           setSubmitting(false)
@@ -40,7 +40,7 @@ const ContactForm = ({ className }) => {
         }
       )
     } else {
-      cogoToast.error("Addition didn't match!", {
+      cogoToast.error('Wrong Sum', {
         hideAfter: 5,
       })
     }
