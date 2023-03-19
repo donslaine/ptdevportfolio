@@ -3,7 +3,7 @@ import Portfolio from './Portfolio'
 import { useEffect, useState } from 'react'
 import SectionTitle from './SectionTitle'
 import portfolios from '../data/portfolios.json'
-import { pdfjs, Document, Page } from 'react-pdf'
+import { pdfjs } from 'react-pdf'
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`
 
