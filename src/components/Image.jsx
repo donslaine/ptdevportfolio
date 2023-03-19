@@ -5,7 +5,7 @@ const Image = ({ src, ...props }) => {
         <img
           src={src}
           layout="fill"
-          objectFit="contain"
+          objectfit="contain"
           className="!relative !h-unset !w-full"
           {...props}
         />
