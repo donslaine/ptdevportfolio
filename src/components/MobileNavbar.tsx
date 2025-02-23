@@ -1,4 +1,4 @@
-import { Link } from 'react-scroll'
+import  Link from 'next'
 import navbar from '../data/navbar.json'
 
 const MobileNavbar = ({ className }) => {

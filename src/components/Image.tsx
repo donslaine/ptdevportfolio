@@ -6,7 +6,7 @@ const Image = ({ src, ...props }) => {
           src={src}
           layout="fill"
           objectfit="contain"
-          className="!relative !h-unset !w-full"
+          className="relative! h-unset! w-full!"
           {...props}
         />
       </div>

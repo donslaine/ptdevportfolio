@@ -62,7 +62,7 @@ const ContactForm = ({ className }) => {
       />
 
       <div className="mt-5 flex items-center">
-        <p className="!mb-0 mr-5">Are you human?</p>
+        <p className="mb-0! mr-5">Are you human?</p>
         <h4>11 + {noForVerify} = </h4>
         <input
           required

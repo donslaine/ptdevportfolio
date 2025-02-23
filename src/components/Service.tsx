@@ -9,7 +9,7 @@ const Service = ({ thumb, title, desc, className }) => {
       }`}
     >
       {/* Service Icon */}
-      <div className="relative mr-4 w-[50px] flex-shrink-0 self-start bg-white group-hover:bg-gray-50 md:w-auto">
+      <div className="relative mr-4 w-[50px] shrink-0 self-start bg-white group-hover:bg-gray-50 md:w-auto">
         <Image src={thumb} alt={title} />
       </div>
 
